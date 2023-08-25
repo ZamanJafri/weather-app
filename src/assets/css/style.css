@@ -1,0 +1,84 @@
+.conatainer {
+  max-width: 400px;
+  height: 100vh;
+  background-color: rgb(16, 49, 141);
+  margin: 25px auto;
+  border-radius: 20px;
+  box-shadow: 30px 25px 50px rgb(0, 0, 0, 0.5);
+}
+/* .conatainer>:nth-child(1){
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+} */
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-engine {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+  margin-top: 40px;
+  border-radius: 20px;
+  padding: 15px 10px;
+}
+input[type="text"] {
+  outline: none;
+  border: none;
+  font-size: 20px;
+  background: none;
+}
+::placeholder {
+  font-size: 20px;
+}
+.cloud img {
+  width: 120px;
+  display: block;
+  margin: 10px auto;
+}
+.weadther-degree h1,
+h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 40px;
+}
+h2 {
+  margin-top: -30px;
+}
+.weather-h-wind-s {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.today {
+  /* margin-left:30px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  margin-top: -40px;
+}
+.today h3 span {
+  margin-left: 10px;
+}
+.per {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin: 10px; */
+  
+}
+.flex {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.flex > :nth-child(1) {
+  font-size: 24px;
+}
+span {
+  color: #fff;
+}
